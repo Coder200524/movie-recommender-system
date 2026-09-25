@@ -1,0 +1,10 @@
+# Ignore uncompressed 184MB similarity matrix (use compressed similarity.pkl.gz instead)
+similarity.pkl
+
+# Ignore python bytecode & cache
+__pycache__/
+*.pyc
+
+# Ignore agent config folders if temporary
+.agents/
+.claude/
